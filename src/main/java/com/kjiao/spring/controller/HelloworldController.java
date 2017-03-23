@@ -13,6 +13,10 @@ public class HelloworldController {
 	public String hello() {
 		return "hello world";
 	}
+	@RequestMapping("/info")
+	public String info() {
+		return "spring boot learning";
+	}
 	/**
 	 * spring boot read json format data by jackson 
 	 * @return
